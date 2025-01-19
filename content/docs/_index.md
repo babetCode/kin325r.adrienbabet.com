@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Content
 next: first-page
 breadcrumbs: false
 ---
