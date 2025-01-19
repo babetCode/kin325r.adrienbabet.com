@@ -1,6 +1,5 @@
 ---
 title: Week 1
-type: docs
 prev: /
 next: docs/folder/
 weight: 1

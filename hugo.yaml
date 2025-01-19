@@ -18,12 +18,9 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: Content
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
-      weight: 2
     - name: Contact ↗
       url: "https://adrienbabet.com/contact/"
       weight: 3
@@ -36,11 +33,6 @@ menu:
       url: "https://github.com/babetCode/kin325r.adrienbabet.com"
       params:
         icon: github
-    - name: SubstacK
-      weight: 6
-      url: "https://adrienbabet.substack.com/"
-      params:
-        icon: substack
 
 params:
   navbar:

@@ -2,6 +2,8 @@
 title: Content
 next: first-page
 breadcrumbs: false
+cascade:
+    type: docs
 ---
 
 {{< details-html title="Syllabus" closed="true" >}}
