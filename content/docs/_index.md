@@ -9,11 +9,9 @@ breadcrumbs: false
 {{< /details-html >}}
 
 {{< details-html title="External Brain Assignment Guidelines" closed="true" >}}
-{{< pdf "/pdfs/External Brain Assignment Guidelines.pdf" >}}
+{{< tallpdf path="/pdfs/External Brain Assignment Guidelines.pdf" height="75" >}}
 {{< /details-html >}}
 
 {{< details-html title="External Brain Assignment Grading Rubric" closed="true" >}}
-{{< pdf "/pdfs/External Brain Assignment Grading Rubric.pdf" >}}
+{{< tallpdf path="/pdfs/External Brain Assignment Grading Rubric.pdf" height="45" >}}
 {{< /details-html >}}
-
-{{< tallpdf "/pdfs/syllabus.pdf" "40" >}}
