@@ -25,7 +25,7 @@ menu:
       pageRef: /about
       weight: 2
     - name: Contact ↗
-      url: "https://github.com/imfing"
+      url: "https://adrienbabet.com/contact/"
       weight: 3
     - name: Search
       weight: 4
@@ -33,14 +33,14 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/babetCode/kin325r.adrienbabet.com"
       params:
         icon: github
-    - name: Twitter
+    - name: SubstacK
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://adrienbabet.substack.com/"
       params:
-        icon: x-twitter
+        icon: substack
 
 params:
   navbar:
@@ -59,4 +59,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/babetCode/kin325r.adrienbabet.com/edit/main/content"

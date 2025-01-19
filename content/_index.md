@@ -3,12 +3,6 @@ toc: false
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge link="https://adrienbabet.com/" >}}
-  <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>Free, open source</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
   KIN 325R: Biomechanics
@@ -17,7 +11,7 @@ layout: hextra-home
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  Personal Course Site for the Spring 2025 Semester
+  Spring 2025
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -42,15 +36,9 @@ layout: hextra-home
   >}}
 {{< /hextra/feature-grid >}}
 
-This is the landing page.
+<br><br>
 
-## Explore
-
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+{{< hextra/hero-badge link="https://adrienbabet.com/" >}}
+  {{< icon name="exclamation-circle" attributes="height=20" >}}
+  Not an Official Course Page
+{{< /hextra/hero-badge >}}
