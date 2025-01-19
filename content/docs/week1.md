@@ -92,3 +92,17 @@ Create a concept map or schematic diagram which shows the relationship among the
 - **Torque**: force x distance from fulcrum
 {{< /md >}}
 </div>
+
+```mermaid
+    graph
+        mech("**Mechanics:** The Study of Motion and the Forces Which Produce Motion") --> fm(Fluid Mechanics);
+        mech --> cm(Classical Mechanics);
+        mech --> rm(Relativistic Mechanics);
+        mech --> qm(Quantum Mechanics);
+        cm -->|With Movement| dyn(Dynamics);
+        cm -->|Without Movement| stat(Statics);
+        dyn -->|With Deformation| rbd(Rigid Body Dynamics);
+        dyn -->|Without Deformation| dbd(Deformable Body Dynamics);
+        rbd -->|Accounts for Forces| kinet(Kinetics);
+        rbd -->|Doesn't Account for Forces| kinem(Kinematics);
+```

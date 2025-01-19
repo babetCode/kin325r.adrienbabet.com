@@ -1,6 +1,6 @@
 ---
 title: Content
-next: first-page
+next: week1
 breadcrumbs: false
 cascade:
     type: docs

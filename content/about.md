@@ -3,7 +3,7 @@ title: About This Website
 type: about
 ---
 
-Welcome to my personal exploration of Biomechanics! This website was created as a learning tool to enhance my understanding of the course material.
+This website was created as a learning tool to enhance my understanding of the course material.
 
 **Why I Built This**  
 This project is more than just a collection of notes. It's an opportunity for me to:
