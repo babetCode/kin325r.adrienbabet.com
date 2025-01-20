@@ -1,7 +1,7 @@
 ---
 title: Week 1
 prev: /
-next: docs/folder/
+next: docs/week2/
 weight: 1
 ---
 
