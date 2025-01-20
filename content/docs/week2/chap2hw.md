@@ -92,7 +92,7 @@ for (int i = 0; i < magnitudes.length; ++i) {
   drawForce(magnitudes[i], directions[i], labels[i]);
 }
 ```
-This code can be pasted into the [asymptote web app](http://asymptote.ualberta.ca/) to create similar diagrams.
+This code can be pasted directly into the [asymptote web app](http://asymptote.ualberta.ca/).
 {{< /md >}}
 {{< /details-html >}}
 
