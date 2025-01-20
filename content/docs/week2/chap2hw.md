@@ -55,7 +55,7 @@ Frictional force can be modeled as $F_f = \mu N$, where $\mu$ is some coefficien
 
 | **Feature** | **Friction Characteristics** |
 |---|---|
-| ***Material*** | Common materials include rubber compounds, leather, or synthetic materials like EVA or polyurethane. Different materials have varying friction coefficients as well as deformation, affecting grip depending on ground surface. |
+| ***Material*** | Common materials include rubber compounds, leather, or synthetic materials like EVA or polyurethane ([hesperian, 2024](https://en.hesperian.org/hhg/Workers%27_Guide_to_Health_and_Safety:Making_the_soles)). Different materials have varying friction coefficients as well as deformation, affecting grip depending on ground surface. |
 | ***Tread Pattern*** | *Depth & Spacing of Grooves:* Deeper, closer grooves displace fluids (like water) and provide better grip on loose surfaces.<br><br> *Shape of Lugs:* Round lugs may grip hard surfaces better, while angular lugs excel on softer surfaces. This is because on soft ground, lugs deform the surface and interlock with it. More angular lugs will generally deform the ground more effectively, but may also be less durable.<br><br> *Surface Area:* Larger contact area also generally increases friction, especially on soft surfaces. This is because the $F_f = \mu N$ model does not account for deformation. |
 | ***Flexibility*** | *Flexible Soles:* Flexible soles conform better to uneven surfaces, improving grip.<br><br> *Rigid Soles:* Rigid soles provide more stability, but may be less adaptable. |
 
@@ -140,6 +140,11 @@ Is this meant to be a diagram of the dumbell-forearm system? is the biceps exert
 #### e)
 
 ### References
-UNCIVILIZED SNEAKER 2.0 TRIPLE WHITE. (n.d.). Uncivilizedsneaker. Retrieved January 20, 2025, from https://uncivilizedsneaker.com/products/uncivilized-sneaker-2-0-triple-white
 
 Asymptote vector graphics. (n.d.). Retrieved January 20, 2025, from http://asymptote.ualberta.ca/
+
+ChatGPT - Free body diagram in Asymptote. (n.d.). ChatGPT. Retrieved January 20, 2025, from https://chatgpt.com/share/678e81b4-9038-8009-9ec9-7324bb071514
+
+Making the soles. (2024, July 6). Hesperian Health Guides. https://en.hesperian.org/hhg/Workers%27_Guide_to_Health_and_Safety:Making_the_soles
+
+UNCIVILIZED SNEAKER 2.0 TRIPLE WHITE. (n.d.). Uncivilizedsneaker. Retrieved January 20, 2025, from https://uncivilizedsneaker.com/products/uncivilized-sneaker-2-0-triple-white
