@@ -50,13 +50,13 @@ Frictional force can be modeled as $F_f = \mu N$, where $\mu$ is some coefficien
 
 <div class="w-48">
   <img src="https://uncivilizedsneaker.com/cdn/shop/files/allwhite-i.jpg?v=1716499668&width=1100" alt="Sneaker" class="w-full mb-0">
-  <p class="text-xs text-center mt-0">Image source: <a href="https://uncivilizedsneaker.com/products/uncivilized-sneaker-2-0-triple-white" target="_blank" class="text-blue-500">https://uncivilizedsneaker.com/products/uncivilized-sneaker-2-0-triple-white</a></p>
+  <p class="text-xs text-center mt-0"><a href="https://uncivilizedsneaker.com/products/uncivilized-sneaker-2-0-triple-white" target="_blank" class="text-blue-500">(UNCIVILIZED SNEAKER 2.0 TRIPLE WHITE, n.d.)</a></p>
 </div>
 
 | **Feature** | **Friction Characteristics** |
 |---|---|
 | ***Material*** | Common materials include rubber compounds, leather, or synthetic materials like EVA or polyurethane. Different materials have varying friction coefficients as well as deformation, affecting grip depending on ground surface. |
-| ***Tread Pattern*** | *Depth & Spacing of Grooves:* Deeper, closer grooves displace fluids (like water) and provide better grip on loose surfaces.<br><br> *Shape of Lugs:* Round lugs may grip hard surfaces better, while angular lugs excel on softer surfaces. This is because on soft ground, lugs deform the surface and interlock with it. More angular lugs will generally deform the ground more effectively, but may also be less durable.<br><br> *Surface Area:* Larger contact area also generally increases friction, especially on soft surfaces. This is because the $F_f = \mu N$ does not account for deformation |
+| ***Tread Pattern*** | *Depth & Spacing of Grooves:* Deeper, closer grooves displace fluids (like water) and provide better grip on loose surfaces.<br><br> *Shape of Lugs:* Round lugs may grip hard surfaces better, while angular lugs excel on softer surfaces. This is because on soft ground, lugs deform the surface and interlock with it. More angular lugs will generally deform the ground more effectively, but may also be less durable.<br><br> *Surface Area:* Larger contact area also generally increases friction, especially on soft surfaces. This is because the $F_f = \mu N$ model does not account for deformation. |
 | ***Flexibility*** | *Flexible Soles:* Flexible soles conform better to uneven surfaces, improving grip.<br><br> *Rigid Soles:* Rigid soles provide more stability, but may be less adaptable. |
 
 ### 3. Analyzing Forces Acting on Bodies
@@ -98,16 +98,38 @@ This code can be pasted directly into the [asymptote web app](http://asymptote.u
 
 #### a)
 <div class="bg-white rounded-lg float-left mr-4">
-    <img src="/images/hw2-4-a.svg" alt="Free Body Diagram - Backpack">
+    <img src="/images/hw2-4-a.svg" alt="FBD - Backpack">
 </div>
 The force through the strap could also be described as $F_N$, since it is a normal force.
 
 ```
 real[] magnitudes = {9.8, 9.8};
-real[] directions = {90, -90};
-string[] labels = {"\mathrm{Force\ Through\ Strap}", "F_g"};
+real[] directions = {-90, 90};
+string[] labels = {"F_g", "\mathrm{Force\ Through\ Strap}"};
 ```
 <div class="clear-both"></div>
+
+#### b)
+<div class="bg-white rounded-lg float-left mr-4">
+    <img src="/images/hw2-4-b.svg" alt="FBD - Runner">
+</div>
+
+```
+real[] magnitudes = {9.8, 11, 1};
+real[] directions = {-90, 90, 180};
+string[] labels = {"F_g", "\mathrm{Ground\ Reaction\ Force}", "\mathrm{Air\ Resistance}"};
+```
+<div class="clear-both"></div>
+
+#### c)
+What is the ankle joint reaction force?
+
+#### d)
+Is this meant to be a diagram of the dumbell-forearm system? is the biceps exerting an external force?
+
+### 5. Resolution of Forces
+
+#### a)
 
 #### b)
 
@@ -115,3 +137,9 @@ string[] labels = {"\mathrm{Force\ Through\ Strap}", "F_g"};
 
 #### d)
 
+#### e)
+
+### References
+UNCIVILIZED SNEAKER 2.0 TRIPLE WHITE. (n.d.). Uncivilizedsneaker. Retrieved January 20, 2025, from https://uncivilizedsneaker.com/products/uncivilized-sneaker-2-0-triple-white
+
+Asymptote vector graphics. (n.d.). Retrieved January 20, 2025, from http://asymptote.ualberta.ca/
