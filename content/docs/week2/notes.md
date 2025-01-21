@@ -748,3 +748,73 @@ label("$=$", (xpos, 100));
 pair result = getResultant(magnitudes, directions);
 drawVector((xpos + spacing, 100), length(result)/scale, angle(result), resultLabel, resultPen);
 ```
+
+## 11 final fix for equals sign
+```
+// Define pens and settings
+pen forcePen = black + 1.5bp;
+pen resultPen = blue + 1.5bp;
+real scale = 20; // Scale factor for vector lengths
+
+// Function to draw a single vector with magnitude and angle
+void drawVector(pair start, real magnitude, real angle, string label, pen p=forcePen) {
+    pair end = start + scale*magnitude*dir(angle);
+    draw(start--end, p, Arrow(DefaultHead));
+    label("$" + label + "$", end, dir(angle+90));
+}
+
+// Function to calculate resultant vector
+pair getResultant(real[] magnitudes, real[] directions) {
+    pair result = (0,0);
+    for(int i = 0; i < magnitudes.length; ++i) {
+        result += scale*magnitudes[i]*dir(directions[i]);
+    }
+    return result;
+}
+
+// Example forces with resultant label
+real[] magnitudes = {5, 5};
+real[] directions = {0, 0};
+string[] labels = {"\mathrm{5\ N\ to\ the\ right}", "\mathrm{5\ N\ to\ the\ right}"};
+string resultLabel = "\mathrm{10\ N\ to\ the\ right}";
+
+// Fixed spacing values
+real spacing = 20;  // Space between vectors/operators
+real xpos = 50;     // Starting x position for first vector
+
+// Draw individual vectors with plus signs
+for(int i = 0; i < magnitudes.length; ++i) {
+    // Draw current vector
+    drawVector((xpos, 100), magnitudes[i], directions[i], labels[i]);
+    
+    // Add plus sign if not last vector
+    if(i < magnitudes.length - 1) {
+         
+        xpos += spacing;
+             
+        if(magnitudes[i] * cos(radians(directions[i])) > 0) {
+            xpos += scale * magnitudes[i] * cos(radians(directions[i]));
+        }
+      
+        label("$+$", (xpos, 100));
+      
+        xpos += spacing;
+ 
+        // Add space for next vector
+        if(magnitudes[i + 1] * cos(radians(directions[i + 1])) < 0) {
+            xpos += scale * magnitudes[i + 1] * abs(cos(radians(directions[i + 1]))); 
+        }
+    }
+    else if(magnitudes[i] * cos(radians(directions[i])) > 0) {
+    	xpos += scale * magnitudes[i] * cos(radians(directions[i]));
+    }
+}
+
+// Add equals sign
+xpos += spacing;
+label("$=$", (xpos, 100));
+
+// Calculate and draw the resultant vector
+pair result = getResultant(magnitudes, directions);
+drawVector((xpos + spacing, 100), length(result)/scale, angle(result), resultLabel, resultPen);
+```
