@@ -184,7 +184,7 @@ for (int i = 0; i < magnitudes.length; ++i) {
 This code can be pasted directly into the [asymptote web app](http://asymptote.ualberta.ca/):
 {{< /md >}}
 <br>
-<div class="hextra-pdf">
+<div class="bg-blue-400 rounded-md p-2 pt-1">
   <button class="fullscreenBtn mx-auto px-2 m-1 bg-blue-400 hover:bg-blue-500 rounded-full flex items-center justify-center">
     <i class="fas fa-expand"></i>
     <span class="ml-2">Full Screen</span>
