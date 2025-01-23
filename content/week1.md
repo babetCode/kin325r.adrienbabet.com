@@ -1,8 +1,8 @@
 ---
 title: Week 1
-prev: /
-next: docs/week2/
 weight: 1
+type: docs
+breadcrumbs: false
 ---
 
 ## Chapter 1 Homework

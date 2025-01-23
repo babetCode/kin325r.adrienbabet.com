@@ -1,6 +1,6 @@
 ---
 title: About This Website
-type: about
+type: docs
 math: true
 ---
 
