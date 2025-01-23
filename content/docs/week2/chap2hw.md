@@ -298,13 +298,6 @@ This code can be pasted directly into the [asymptote web app](http://asymptote.u
 
 ##### A.
 
-##### B.
-
-##### C.
-
-##### D.
-
-##### E.
 
 ### References
 
