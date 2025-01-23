@@ -1,7 +1,7 @@
 ---
 toc: false
 cascade:
-  layout: docs
+  type: docs
 breadcrumbs: true
 ---
 

@@ -32,12 +32,13 @@ leg extension gets bad rep for patella-femoral forces --- what are patella femor
 // Define pens and settings
 pen forcePen = black + 1.5bp;
 pen resultPen = blue + 1.5bp;
-real scale = 20; // Scale factor for vector lengths
+real scale = 15; // Scale factor for vector lengths
 
 // Function to draw a single vector with magnitude and angle
 void drawVector(pair start, real magnitude, real angle, string label, pen p=forcePen) {
     pair end = start + scale*magnitude*dir(angle);
     draw(start--end, p, Arrow(DefaultHead));
+    write(scale*magnitude*dir(angle));
     label("$" + label + "$", end, dir(angle+90));
 }
 
@@ -51,10 +52,10 @@ pair getResultant(real[] magnitudes, real[] directions) {
 }
 
 // Example forces with resultant label
-real[] magnitudes = {5, 5};
-real[] directions = {0, 0};
-string[] labels = {"\mathrm{5\ N\ to\ the\ right}", "\mathrm{5\ N\ to\ the\ right}"};
-string resultLabel = "\mathrm{10\ N\ to\ the\ right}";
+real[] magnitudes = {3, 12};
+real[] directions = {-90, -100};
+string[] labels = {"\mathrm{vector\ 1}", "\mathrm{vector\ 2}"};
+string resultLabel = "\mathrm{result}";
 
 // Fixed spacing values
 real spacing = 20;  // Space between vectors/operators
@@ -94,5 +95,6 @@ label("$=$", (xpos, 100));
 
 // Calculate and draw the resultant vector
 pair result = getResultant(magnitudes, directions);
-drawVector((xpos + spacing, 100), length(result)/scale, angle(result), resultLabel, resultPen);
+drawVector((xpos + spacing, 100), length(result)/scale, degrees(angle(result)), resultLabel, resultPen);
 ```
+
