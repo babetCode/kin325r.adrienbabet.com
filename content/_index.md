@@ -17,8 +17,8 @@ breadcrumbs: true
 {{< /hextra/hero-subtitle >}}
 </div>
 
-{{< hextra/hero-badge link="/about" >}}
-  About This Unofficial Course Site
+{{< hextra/hero-badge link="/week2" >}}
+  Week 2
 {{< /hextra/hero-badge >}}
 
 {{< details-html title="Syllabus" closed="true" >}}

@@ -132,15 +132,15 @@ import graph;
 
 size(300);
 pen forcePen = blue + 1.5bp;
-draw(box((0, 0), (1, 1)), black+0.5bp);
+draw((-1,-0.5)--(2,-0.5)--(-0.5,0.75)--cycle, black+0.5bp);
 
 // Forces (magnitude, direction in deg, label)
-real[] magnitudes = {9.8, 9.8};
-real[] directions = {-90, 90};
-string[] labels = {"F_g", "\mathrm{Force\ Through\ Strap}"};
+real[] magnitudes = {3, 15, 12};
+real[] directions = {-90, 90, -100};
+string[] labels = {"F_g", "\mathrm{Ground\ Reaction\ Force}", "\mathrm{Joint\ Reaction\ Force}"};
 
 void drawForce(real magnitude, real angle, string label) {
-  pair start = (0.5, 0.5);
+  pair start = (0.0, 0.0);
   pair end = start + magnitude * dir(angle);
   draw(start--end, forcePen, Arrow(DefaultHead));
   label("$" + label + "$", end, dir(angle+90));
@@ -181,8 +181,19 @@ for (int i = 0; i < magnitudes.length; ++i) {
 
 {{< /tabs >}}
 
-This code can be pasted directly into the [asymptote web app](http://asymptote.ualberta.ca/).
+This code can be pasted directly into the [asymptote web app](http://asymptote.ualberta.ca/):
 {{< /md >}}
+<br>
+<div class="hextra-pdf">
+  <button class="fullscreenBtn mx-auto px-2 m-1 bg-blue-400 hover:bg-blue-500 rounded-full flex items-center justify-center">
+    <i class="fas fa-expand"></i>
+    <span class="ml-2">Full Screen</span>
+  </button>
+  <iframe src="http://asymptote.ualberta.ca/" width="100%" height="750px"></iframe>
+</div>
+
+<script src="/js/full-screen.js"></script>
+
 {{< /details-html >}}
 
 #### a)
@@ -191,11 +202,6 @@ This code can be pasted directly into the [asymptote web app](http://asymptote.u
 </div>
 The force through the strap could also be described as $F_N$, since it is a normal force.
 
-```
-real[] magnitudes = {9.8, 9.8};
-real[] directions = {-90, 90};
-string[] labels = {"F_g", "\mathrm{Force\ Through\ Strap}"};
-```
 <div class="clear-both"></div>
 
 #### b)
@@ -203,11 +209,6 @@ string[] labels = {"F_g", "\mathrm{Force\ Through\ Strap}"};
     <img src="/images/hw2-4-b.svg" alt="FBD - Runner">
 </div>
 
-```
-real[] magnitudes = {9.8, 11, 1};
-real[] directions = {-90, 90, 180};
-string[] labels = {"F_g", "\mathrm{Ground\ Reaction\ Force}", "\mathrm{Air\ Resistance}"};
-```
 <div class="clear-both"></div>
 
 #### c)
@@ -219,6 +220,39 @@ Is this meant to be a diagram of the dumbell-forearm system? is the biceps exert
 ### 5. Resolution of Forces
 
 #### a)
+The "tip to tail" method is a graphical method for vector addition. By placing tail of vector 2 at the tip of vector 1 and drawing the vector from the tail of 1 to the tip of 2, we have the vector which is the sum of vectors 1 and 2. 
+
+{{< details title="Example Code" closed="true" >}}
+
+```c
+import graph;
+
+size(300);
+pen forcePen = blue + 1.5bp;
+pen resultPen = red + 1.5bp;
+
+// Forces (magnitude, direction in deg, label)
+real[] magnitudes = {400, 200};
+real[] directions = {100, 25};
+string[] labels = {"F_{\mathrm{Deltoid}}", "F_{\mathrm{Supraspinatus}}"};
+
+pair currentStart = (0.0, 0.0); // Global variable to track the start position
+pair initStart = (0.0, 0.0);
+
+void drawForce(real magnitude, real angle, string label) {
+  pair end = currentStart + magnitude * dir(angle);
+  draw(currentStart--end, forcePen, Arrow(DefaultHead));
+  label("$" + label + "$", end, dir(angle+90));
+  currentStart = end; // Update the global start for the next call
+}
+
+for (int i = 0; i < magnitudes.length; ++i) {
+  drawForce(magnitudes[i], directions[i], labels[i]);
+}
+
+draw(initStart--currentStart, resultPen, Arrow(DefaultHead));
+```
+{{< /details-html >}}
 
 #### b)
 
@@ -228,12 +262,13 @@ Is this meant to be a diagram of the dumbell-forearm system? is the biceps exert
 // Define pens and settings
 pen forcePen = black + 1.5bp;
 pen resultPen = blue + 1.5bp;
-real scale = 20; // Scale factor for vector lengths
+real scale = 15; // Scale factor for vector lengths
 
 // Function to draw a single vector with magnitude and angle
 void drawVector(pair start, real magnitude, real angle, string label, pen p=forcePen) {
     pair end = start + scale*magnitude*dir(angle);
     draw(start--end, p, Arrow(DefaultHead));
+    write(scale*magnitude*dir(angle));
     label("$" + label + "$", end, dir(angle+90));
 }
 
@@ -247,10 +282,10 @@ pair getResultant(real[] magnitudes, real[] directions) {
 }
 
 // Example forces with resultant label
-real[] magnitudes = {5, 5};
-real[] directions = {0, 0};
-string[] labels = {"\mathrm{5\ N\ to\ the\ right}", "\mathrm{5\ N\ to\ the\ right}"};
-string resultLabel = "\mathrm{10\ N\ to\ the\ right}";
+real[] magnitudes = {3, 12};
+real[] directions = {-90, -100};
+string[] labels = {"\mathrm{vector\ 1}", "\mathrm{vector\ 2}"};
+string resultLabel = "\mathrm{result}";
 
 // Fixed spacing values
 real spacing = 20;  // Space between vectors/operators
@@ -290,7 +325,7 @@ label("$=$", (xpos, 100));
 
 // Calculate and draw the resultant vector
 pair result = getResultant(magnitudes, directions);
-drawVector((xpos + spacing, 100), length(result)/scale, angle(result), resultLabel, resultPen);
+drawVector((xpos + spacing, 100), length(result)/scale, degrees(angle(result)), resultLabel, resultPen);
 ```
 This code can be pasted directly into the [asymptote web app](http://asymptote.ualberta.ca/).
 {{< /md >}}
@@ -298,6 +333,13 @@ This code can be pasted directly into the [asymptote web app](http://asymptote.u
 
 ##### A.
 
+##### B.
+
+##### C.
+
+##### D.
+
+##### E.
 
 ### References
 

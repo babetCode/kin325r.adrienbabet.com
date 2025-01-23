@@ -4,7 +4,7 @@ type: docs
 math: true
 ---
 
-This website was created as a learning tool to enhance my understanding of the course material.
+This website was created as a learning tool to enhance my understanding of the KIN 325R course material.
 
 **Why I Built This**  
 This project is more than just a collection of notes. It's an opportunity for me to:

@@ -1,7 +1,6 @@
 ---
 title: Random Questions
 type: docs
-prev: docs/folder/
 ---
 
 {{< details-html title="My Source Code" closed="true" >}}

@@ -2,7 +2,7 @@
 title: "Tuesday Notes"
 date: 2025-01-19T23:15:41-07:00
 draft: false
-type: docs
+weight: 1
 ---
 
 ## Announcements
@@ -97,4 +97,3 @@ label("$=$", (xpos, 100));
 pair result = getResultant(magnitudes, directions);
 drawVector((xpos + spacing, 100), length(result)/scale, degrees(angle(result)), resultLabel, resultPen);
 ```
-

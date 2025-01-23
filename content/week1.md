@@ -1,5 +1,6 @@
 ---
 title: Week 1
+next: /week2
 weight: 1
 type: docs
 breadcrumbs: false
