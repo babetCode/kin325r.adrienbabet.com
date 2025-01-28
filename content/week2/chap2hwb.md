@@ -185,6 +185,9 @@ The "tip to tail" method is a graphical method for vector addition. By placing t
     <img src="/images/hw2-5-b-C.svg" alt="11.18 N at 63.43 deg">
 </div>
 
+Magnitude: $\sqrt{5^2 + 10^2} = 5\sqrt 5$  
+Direction: $\arctan(10/5) = 63.43^\circ$
+
 <div class="clear-both"></div>
 
 ##### D.
