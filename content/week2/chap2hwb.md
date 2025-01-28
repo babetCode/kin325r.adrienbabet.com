@@ -1,7 +1,7 @@
 ---
 date: '2025-01-23T11:19:12-07:00'
 draft: false
-title: 'Chapter 2 Homework (b)'
+title: 'Chapter 2 HW (4-5)'
 math: true
 weight: 4
 ---
@@ -155,7 +155,7 @@ for (int i = 0; i < magnitudes.length; ++i) {
 
 {{< /tabs >}}
 
-To make your own version of this diagram, copy & paste it into the [asymptote web app](http://asymptote.ualberta.ca/).
+*This code can be copied & pasted into the [asymptote web app](http://asymptote.ualberta.ca/).*
 {{< /md >}}
 
 {{< /details-html >}}
@@ -163,7 +163,13 @@ To make your own version of this diagram, copy & paste it into the [asymptote we
 ### 5. Resolution of Forces
 
 #### a)
-The "tip to tail" method is a graphical method for vector addition. By placing tail of vector 2 at the tip of vector 1 and drawing the vector from the tail of 1 to the tip of 2, we have the vector which is the sum of vectors 1 and 2. 
+The "tip to tail" method is a graphical method for vector addition. By placing tail of vector 2 at the tip of vector 1 and drawing the vector from the tail of 1 to the tip of 2, we have the vector which is the sum of vectors 1 and 2.
+
+<div class="bg-white rounded-lg float-left mr-4">
+    <img src="/images/hw2-5-a.svg" alt="tip to tail">
+</div>
+
+<div class="clear-both"></div>
 
 {{< details title="Example Code" closed="true" >}}
 
@@ -175,9 +181,9 @@ pen forcePen = blue + 1.5bp;
 pen resultPen = red + 1.5bp;
 
 // Forces (magnitude, direction in deg, label)
-real[] magnitudes = {400, 200};
-real[] directions = {100, 25};
-string[] labels = {"F_{\mathrm{Deltoid}}", "F_{\mathrm{Supraspinatus}}"};
+real[] magnitudes = {400, 200, 100};
+real[] directions = {100, 25, -45};
+string[] labels = {"F_1", "F_2", "F_3"};
 
 pair currentStart = (0.0, 0.0); // Global variable to track the start position
 pair initStart = (0.0, 0.0);
@@ -194,14 +200,16 @@ for (int i = 0; i < magnitudes.length; ++i) {
 }
 
 draw(initStart--currentStart, resultPen, Arrow(DefaultHead));
+label("$F_\mathrm{resultant}$", (50, 0) + (initStart + currentStart)/2);
 ```
+*This code can be copied & pasted into the [asymptote web app](http://asymptote.ualberta.ca/).*
 {{< /details-html >}}
 
 #### b)
 
 {{< details-html title="My Source Code" closed="true" >}}
 {{< md >}}
-```
+```c
 // Define pens and settings
 pen forcePen = black + 1.5bp;
 pen resultPen = blue + 1.5bp;

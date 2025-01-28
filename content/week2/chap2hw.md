@@ -1,5 +1,5 @@
 ---
-title: "Chapter 2 Homework (a)"
+title: "Chapter 2 HW (1-3)"
 date: 2025-01-19T18:41:46-07:00
 draft: false
 math: true

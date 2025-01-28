@@ -1,7 +1,6 @@
 ---
 title: About This Website
-type: docs
-math: true
+breadcrumbs: false
 ---
 
 This website was created as a learning tool to enhance my understanding of the KIN 325R course material.
@@ -22,11 +21,11 @@ Expect to find resources including:
 This website is an independent project and does not represent the official course website. I hope this website proves to be a valuable resource for my own learning journey and perhaps even provides some helpful insights for fellow classmates.
 
 **References**  
-This site was built using [Hugo](https://gohugo.io/) and [Hextra Starter Template](https://github.com/imfing/hextra-starter-template). Flowcharts were rendered with [Mermaid](https://mermaid.js.org/), $\LaTeX$ was rendered with [KaTeX](https://katex.org/), and diagrams were produced with [Asymptote](https://asymptote.sourceforge.io/).
+This site was built using [Hugo](https://gohugo.io/) and [Hextra Starter Template](https://github.com/imfing/hextra-starter-template). Flowcharts were rendered with [Mermaid](https://mermaid.js.org/), LaTeX was rendered with [KaTeX](https://katex.org/), and diagrams were produced with [Asymptote](https://asymptote.sourceforge.io/).
 
 <br><br>
 <div class="flex justify-center"> 
     <a href="https://adrienbabet.com/" class="text-blue-500 hover:text-blue-700 no-underline" target="_blank"> 
-        &copy; adrienbabet.com
+        - Adrien Babet
     </a>
 </div>
