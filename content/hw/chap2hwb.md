@@ -598,7 +598,6 @@ If you are viewing the [site](https://kin325r.adrienbabet.com/week2/chap2hwb/) v
     <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
 </svg>
 icon, and pasting into the [asymptote web app](http://asymptote.ualberta.ca/).
-<br><br><br><br>
 
 ## References
 
