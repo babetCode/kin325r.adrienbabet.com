@@ -1,12 +1,9 @@
 ---
-title: Week 1
+title: "Chapter 1 Homework"
 next: /week2
 weight: 1
 type: docs
-breadcrumbs: false
 ---
-
-## Chapter 1 Homework
 
 {{< details-html title="Assignment PDF" closed="true" >}}
 {{< tallpdf path="/pdfs/Chapter 1 - Intro to Biomechanics.pdf" height="80" >}}
