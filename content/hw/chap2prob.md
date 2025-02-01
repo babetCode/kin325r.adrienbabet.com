@@ -1,0 +1,49 @@
+---
+date: '2025-01-31T17:22:37-07:00'
+draft: false
+title: 'Chapter 2 Problems'
+math: true
+---
+
+### 1.
+{{< details title="Problem Statement 1" closed="true" >}}
+![problem 1 PNG](/images/chap2p1.png)
+{{< /details >}}
+
+First, let's break down the forces into $x$ and $y$ components. If we let positive $x$ be to the right, then we see that "you" are pushing at an angle of $200^\circ$ counter-clockwise from positive $x$, while "friend" is pusing at an angle of $135^\circ$ counter-clockwise from positive $x$. Therefore, we have
+$$\begin{align*}
+\overrightarrow{\text{you}}_x &= 350\text N (\cos 200^\circ) \approx -329\text N, \\\\
+\overrightarrow{\text{you}}_y &= 350\text N (\sin 200^\circ) \approx -120\text N, \\\\
+\overrightarrow{\text{friend}}_x &= 450\text N (\cos 135^\circ) \approx -318\text N, \\\\
+\overrightarrow{\text{friend}}_y &= 450\text N (\sin 135^\circ) \approx 318\text N. \\\\
+\end{align*}$$
+From this, we get the resultant force
+$$\begin{align*}
+\overrightarrow{\text{F}}_x &\approx -329\text N -318\text N = -647\text N, \\\\
+\overrightarrow{\text{F}}_y &\approx -120\text N + 318\text N = 198\text N. \\\\
+\end{align*}$$
+Comparing this to the force of friction, we see that a 145 kg mass will produce a weight force of $145 \text{ kg}\left(9.8 \text{ m/s}^2\right) = 1421\text N$, so the maximun magnitude of our friction force will be $0.45(1421\text N) \approx 639 \text N$. Since this is less than our resultant force, $\boxed{\text{yes, it will move.}}$
+
+## 2.
+{{< details title="Problem Statement 2" closed="true" >}}
+![problem 1 PNG](/images/chap2p2.png)
+{{< /details >}}
+![problem 1 PNG](/images/chap2p2.png)
+Let the $x$-axis be parallel to the slope, with the skier traveling in the positive $x$ direction. Now, since we are told that the skier is traveling straight down the slope, we know that the net force along the $y$-axis must be zero, so we solve for the $x$ compontents of our three forces: gravity, friction, and air resistance.
+
+The force of gravity on the skier will act $30^\circ$ from the $y$-axis in the fourth cartesian quadrant, or $300^\circ$ from the $x$-axis. Therefore, its $x$ component will be
+$$60\text{ kg}\left(9.8\text{ m/s}^2\right)\left(\cos 300^\circ\right) = 294\text N.$$
+and its $y$ component will be
+$$60\text{ kg}\left(9.8\text{ m/s}^2\right)\left(\sin 300^\circ\right) \approx -509.2\text N.$$
+Since the normal force from the ground will be equal and opposite to this $y$ component, the force of surface friction will be
+$$0.08(509.2\text N) \approx 40.7.$$
+Combining these with the air friction of $10\text N$ gives the resultant force
+$$249\text N + 40.7\text N - 10\text N = \boxed{279.7\text N}$$
+in the positive $x$ direction (AKA $30^\circ$ below horizontal).
+
+
+## 3.
+{{< details title="Problem Statement 3" closed="true" >}}
+![problem 1 PNG](/images/chap2p3.png)
+{{< /details >}}
+![problem 1 PNG](/images/chap2p3.png)
