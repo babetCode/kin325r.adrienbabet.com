@@ -2,6 +2,7 @@
 date: '2025-01-31T17:07:03-07:00'
 draft: false
 title: 'Vector Addition'
+weight: 100
 ---
 
 ```c
@@ -70,3 +71,5 @@ real resultantDirection = resultant.y;
 
 drawVec(xpos, resultantMagnitude, resultantDirection, "result", p=resultPen);
 ```
+
+*This code can be copied & pasted into the [asymptote web app](http://asymptote.ualberta.ca/).*
