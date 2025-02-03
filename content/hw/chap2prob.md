@@ -28,7 +28,7 @@ Comparing this to the force of friction, we see that a 145 kg mass will produce 
 {{< details title="Problem Statement 2" closed="true" >}}
 ![problem 1 PNG](/images/chap2p2.png)
 {{< /details >}}
-![problem 1 PNG](/images/chap2p2.png)
+
 Let the $x$-axis be parallel to the slope, with the skier traveling in the positive $x$ direction. Now, since we are told that the skier is traveling straight down the slope, we know that the net force along the $y$-axis must be zero, so we solve for the $x$ compontents of our three forces: gravity, friction, and air resistance.
 
 The force of gravity on the skier will act $30^\circ$ from the $y$-axis in the fourth cartesian quadrant, or $300^\circ$ from the $x$-axis. Therefore, its $x$ component will be
@@ -46,7 +46,6 @@ in the positive $x$ direction (AKA $30^\circ$ below horizontal).
 {{< details title="Problem Statement 3" closed="true" >}}
 ![problem 1 PNG](/images/chap2p3.png)
 {{< /details >}}
-![problem 1 PNG](/images/chap2p3.png)
 
 Let the $y$-axis be parallel to the tibia, so that the $x$ component of our resultant force equals the shear force, and the $y$ component equals the compressive force. Let the femur be $60^\circ$ counter-clockwise from the positive $x$-axis (so that positive $x$ is posterior and positive $y$ is superior). Now, in degrees counter-clockwise from positive $x$, we have the force of the gastroc at $87^\circ$, force of hamstrings at $60^\circ$, and force of quadriceps at $105^\circ$. Therefore, the force of the gastroc is
 $$\begin{align*}
