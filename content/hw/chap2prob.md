@@ -65,6 +65,6 @@ $$\begin{align*}
 \end{align*}$$
 Summing these up, we have our resultant force as
 $$\begin{align*}
-\text{resultant}_x &= \text{shear} = 1650\text N (\cos 105^\circ) \approx -427.1\text N, \\\\
-\text{resultant}_y &= \text{compressive} = 1650\text N (\sin 105^\circ) \approx 1593.8\text N. \\\\
+\text{resultant}_x = \text{shear} \approx 40.8\text N + 395\text N - 427\text N = \boxed{8.8\text N}, \\\\
+\text{resultant}_y = \text{compressive} \approx 778.9\text N + 684.2\text N + 1593.8\text N = \boxed{356.9\text N}. \\\\
 \end{align*}$$
