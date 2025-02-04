@@ -2,7 +2,9 @@
 date: '2025-01-28T09:07:56-07:00'
 draft: false
 title: 'Jan30notes'
+linkTitle: '30 Jan.'
 math: true
+weight: 4
 ---
 
 ## Report Tips

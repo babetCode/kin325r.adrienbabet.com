@@ -1,5 +1,6 @@
 ---
 title: "Tuesday Notes (week 2)"
+linkTitle: "21 Jan."
 date: 2025-01-19T23:15:41-07:00
 draft: false
 weight: 1
