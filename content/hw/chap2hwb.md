@@ -3,7 +3,7 @@ date: '2025-01-23T11:19:12-07:00'
 draft: false
 title: 'Chapter 2 HW (4-5)'
 math: true
-weight: 4
+weight: 3
 ---
 
 ## Assignments

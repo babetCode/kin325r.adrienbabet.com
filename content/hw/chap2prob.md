@@ -3,9 +3,10 @@ date: '2025-01-31T17:22:37-07:00'
 draft: false
 title: 'Chapter 2 Problems'
 math: true
+weight: 4
 ---
 
-### 1.
+## 1.
 {{< details title="Problem Statement 1" closed="true" >}}
 ![problem 1 PNG](/images/chap2p1.png)
 {{< /details >}}

@@ -1,8 +1,7 @@
 ---
-title: "Chapter 1 Homework"
+title: "Chapter 1 HW"
 next: /week2
 weight: 1
-type: docs
 ---
 
 {{< details-html title="Assignment PDF" closed="true" >}}
