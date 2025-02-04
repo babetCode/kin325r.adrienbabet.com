@@ -2,6 +2,7 @@
 date: '2025-01-30T09:02:58-07:00'
 draft: false
 title: 'Lab1'
+weight: 1
 ---
 
 {{< details-html title="Lab 1 PDF" closed="true" >}}
