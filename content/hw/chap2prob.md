@@ -83,4 +83,4 @@ $$\begin{align*}
 \text{resultant}_x &\approx 40.8\text N + 395\text N - 427\text N = 8.8\text N, \\
 \text{resultant}_y &\approx 778.9\text N + 684.2\text N + 1593.8\text N = 3056.9\text N.
 \end{align*}$$
-Therefore, we have $\boxed{\text{compression} = 356.9\text N}$ and $\boxed{\text{shear} = 8.8\text N}$ .
+Therefore, we have $\boxed{\text{compression} = 3056.9\text N}$ and $\boxed{\text{shear} = 8.8\text N}$ .
