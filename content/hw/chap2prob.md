@@ -47,8 +47,8 @@ $$60\text{ kg}\left(9.8\text{ m/s}^2\right)\left(\sin 300^\circ\right) \approx -
 Since the normal force from the ground will be equal in magnitude to this $y$ component, the force of surface friction will be
 $$0.08(-509.2\text N) \approx -40.7.$$
 Combining these with the air friction of $10\text N$ gives the resultant force
-$$249\text N - 40.7\text N - 10\text N = 198.3\text N$$
-in the positive $x$ direction, or $\boxed{198.3\text N \text{ at }30^\circ \text{ below horizontal}}$ .
+$$294\text N - 40.7\text N - 10\text N = 243.3\text N$$
+in the positive $x$ direction, or $\boxed{243.3\text N \text{ at }30^\circ \text{ below horizontal}}$ .
 
 
 ## 3.
