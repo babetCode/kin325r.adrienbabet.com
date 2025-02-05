@@ -33,11 +33,11 @@ Before the lab can be completed these should be determined. Pick a member of you
 
 - **X** = distance from the elbow axis to wrist where the external load will be applied.  
 
-0.11
+0.23
 
 - **L** = *0.682 * X* – This will be the distance from the elbow to the forearm center of mass.
 
-.075
+.157
 
 - **m** = *0.022 * body mass (in kg)*. This is the mass of the forearm.
 
@@ -71,6 +71,10 @@ This was calculated using
 
 ## Data Collection - Part III – Measure Resistive Force
 The person whose arm length you measured in Part 1 will be your participant. Make sure to note their **sex, height, and mass**.
+
+| sex | height | mass |
+|-----|--------|------|
+| female | 5'4" | 53 kg |
 
 1. With their arm at their side and the humerus vertical, have them flex their elbow to **35°**. Use the goniometer to measure the elbow flexion angle.
 2. Place the hand-held dynamometer at their wrist. Have your participant push against the dynamometer as hard as they possibly can while another person from the group resists the force. Make sure this is an isometric contraction and the elbow angle does not change. You may need a few practice trials to perform a stable reading.
