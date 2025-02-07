@@ -3,6 +3,7 @@ date: '2025-02-03T16:24:26-07:00'
 draft: false
 title: 'Chapter 3 HW (1-3)'
 math: true
+weight: 5
 ---
 
 {{< details-html title="Assignment PDF" closed="true" >}}
