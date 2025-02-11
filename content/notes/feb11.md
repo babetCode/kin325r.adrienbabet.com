@@ -11,3 +11,5 @@ mult. choice, then open-book problem
 forensic biomech analysis for workers comp determines weather spinal loads are above limit
 
 why is a cone used to model the foot center of mass? why is the geometric centroid necessary?
+
+
