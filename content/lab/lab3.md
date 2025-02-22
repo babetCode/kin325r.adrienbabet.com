@@ -3,6 +3,7 @@ date: '2025-02-11T15:15:28-07:00'
 draft: false
 linkTitle: 'Lab3'
 title: "Lab 3: Quantitative Video Analysis KIN 325"
+weight: 3
 ---
 
 ## Learning Objectives
