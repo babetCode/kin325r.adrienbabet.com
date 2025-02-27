@@ -9,12 +9,29 @@ math: true
 ## 1.
 
 ### A.
+<div class="rounded-lg float-left max-w-xs mr-4">
+    <img src="/images/hw4p1a.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
 
 ### B.
 
+<div class="rounded-lg float-left max-w-xs mr-4">
+    <img src="/images/hw4p1b.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
+
 ### C.
 
+<div class="rounded-lg float-left max-w-s mr-4">
+    <img src="/images/hw4p1c.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
+As the person raises their arms, the COM rises. As person squats, the COM lowers, but it rises relative to the torso.
+
 ### D.
+
+The gymnast keeps their body extended to maintain a consistent COM position relative to the bar, ensuring stability and momentum. If they bent at the hips, the COM would shift closer, altering the dynamics and probably making the move less elegant or harder to sustain over multiple rotations. A sprinter starting out of the blocks keeps a low and forward-leaning center of mass for a powerful initial push against the blocks with minimal net torque. For a high jumper going over the bar, the center of mass ideally passes just under the bar while their arched body clears it. If the COM were higher, they’d need to jump with even more momentum to avoid knocking the bar which would be inefficient. Lastly, a linebacker in a low defensive stance relies on a low center of mass to stay balanced and resist being pushed back by opponents. Similar to the sprinter, a lower COM allows them to create more horizontal force against the ground with less torque so they’re less likely to fall or be knocked over. 
 
 ## 2.
 
@@ -39,10 +56,31 @@ $$\frac{x_1\cdot m_1 + x_2\cdot m_2 + x_3\cdot m_3}{m_1 + m_2 + m_3}.$$
 
 ### A.
 
+This can be be done with varying degrees of fidelity depending on the application, but one option discussed in class for 2d sagittal plane analysis is a five segment model with a segment each for the: head, arms, torso, thighs, lower legs. So long as the movements analyzed are symetrical across the sagitall plane and require negligible elbow flexion (i.e. a two foot broad jump), this may be sufficient. 
+
 ### B.
+
+<div class="rounded-lg float-left max-w-40 mr-4">
+    <img src="/images/hw4p3b.jpg" alt="FBD - Runner">
+</div>
+<div class="rounded-lg float-left max-w-xs mr-4">
+    <img src="/images/hw4p3b.png" alt="FBD - Runner">
+</div>
+<div class="clear-both"></div>
+
 
 ### C.
 
-The location of the whole body center of mass plays a crucial role in various sporting scenarios because it directly influences balance, stability, and the efficiency of movement. For a gymnast performing giant circles around a high bar, the center of mass needs to be positioned close to the bar during the rotation to maintain a tight, controlled circle— if it shifted too far outward, the gymnast would lose momentum or even slip off due to the increased torque and instability. In the case of a sprinter starting out of the blocks, a forward-leaning center of mass allows for a powerful initial push against the blocks, propelling them forward with maximum force; if it were higher or more centered, the sprinter would lose that explosive forward drive and start more upright, slowing their acceleration. For a high jumper going over the bar, the center of mass ideally passes just under the bar while their arched body clears it— if it were higher, they’d need to jump even higher to avoid knocking the bar, making the feat more difficult. Lastly, a linebacker in a low defensive stance relies on a low center of mass to stay balanced and resist being pushed back by opponents; if it were higher, they’d be more easily toppled or driven backward, reducing their effectiveness in holding ground. In each case, the center of mass dictates how forces are managed, shaping the athlete’s performance and success.
+An individual’s stability depends on both the location of their COM and their base of support because:
+- The ground reaction force holding them up must come from inside the base of support, meaning that the COM must be over the base of support for static equilibrium.
+- A larger base of support allows for more COM movement while maintaining this stability.
+- A lower COM will have a shorter moment arm to the ground when expering horizontal forces, resulting in less torque and more stability.
 
 ### D.
+
+<div class="rounded-lg float-left max-w-xs mr-4">
+    <img src="/images/hw4p3d.jpg" alt="FBD - Runner">
+</div>
+<div class="clear-both"></div>
+
+Dynamic stability is the ability of a system to resist perturbations, and at least in the context of sports, typcially includes the ability to maintain control of one's orientation.
