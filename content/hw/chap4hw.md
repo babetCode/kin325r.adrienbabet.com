@@ -61,10 +61,10 @@ This can be be done with varying degrees of fidelity depending on the applicatio
 ### B.
 
 <div class="rounded-lg float-left max-w-40 mr-4">
-    <img src="/images/hw4p3b.jpg" alt="FBD - Runner">
+    <img src="/images/hw4p3b.jpg" alt=" ">
 </div>
 <div class="rounded-lg float-left max-w-xs mr-4">
-    <img src="/images/hw4p3b.png" alt="FBD - Runner">
+    <img src="/images/hw4p3b.png" alt=" ">
 </div>
 <div class="clear-both"></div>
 
@@ -79,7 +79,7 @@ An individual’s stability depends on both the location of their COM and their 
 ### D.
 
 <div class="rounded-lg float-left max-w-xs mr-4">
-    <img src="/images/hw4p3d.jpg" alt="FBD - Runner">
+    <img src="/images/hw4p3d.jpg" alt=" ">
 </div>
 <div class="clear-both"></div>
 
