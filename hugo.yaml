@@ -49,3 +49,6 @@ params:
   editURL:
     enable: true
     base: "https://github.com/babetCode/kin325r.adrienbabet.com/edit/main/content"
+
+  page:
+    width: full
