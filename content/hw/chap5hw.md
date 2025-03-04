@@ -49,6 +49,8 @@ math: true
 - **Instantaneous Velocity**: The velocity of an object at a specific moment in time.  
   - *Example*: A car’s speedometer reading at a particular instant, such as 60 km/h at 3:00 PM.
 
+<br><br>
+
 ## 2.
 
 ### a.
@@ -61,6 +63,8 @@ math: true
 | **Negative and increasing in magnitude**        | Moving backward and speeding up.                   | **Negative acceleration**                                                       | Acceleration is in the same direction as velocity (both negative), causing the object to speed up.|
 | **Negative and not changing**      | Moving backward at a steady speed.                 | **Zero acceleration**                                                           | No change in velocity means no acceleration.                                                     |
 | **Negative and decreasing in magnitude**        | Moving backward but slowing down.                  | **Positive acceleration**                                                       | Acceleration is opposite to velocity, causing the object to slow down.                           |
+
+<br><br><br><br><br><br>
 
 ### b.
 <div class="rounded-lg float-left max-w-xs mr-4">
@@ -77,8 +81,7 @@ math: true
 Projectile motion is the motion of an object influenced only by gravity (and air resistance if considered). In other words, an object in free fall. The path followed by the object is called a **trajectory**, which is typically parabolic in shape. Projectile motion can be analyzed by breaking it into horizontal and vertical components, where:
 - Horizontal speed is uniform (constant velocity, no acceleration assuming negligible air resistance).  
 - Vertical speed is accelerated due to gravity (acceleration = $ g = 9.8 \, \text{m/s}^2 $ downward).
-
----
+<br><br><br>
 
 ### b.
 **Long Jump or High Jump in Track and Field**: The athlete’s center of mass follows a parabolic trajectory during the jump.  
@@ -90,7 +93,7 @@ Projectile motion is the motion of an object influenced only by gravity (and air
 
 ### c.
 
-1. **Projectile Motion**: The motion of an object launched into the air, influenced by gravity.
+1. **Projectile Motion**: The motion of an object launched into the air or in free fall, influenced by gravity.
 
 2. **Projection Angle**: The angle at which the object is launched relative to the horizontal.
 
@@ -98,13 +101,11 @@ Projectile motion is the motion of an object influenced only by gravity (and air
 
 4. **Projection Velocity**: The initial speed and direction at which the object is launched.
 
----
-
 ### d.
 
 1. **Projection Angle**:  
    - Determines the shape and range of the trajectory.  
-   - **Optimal Angle**: For maximum horizontal range (ignoring air resistance), the optimal angle is **45 degrees**.  
+   - **Optimal Angle**: For maximum horizontal range (ignoring air resistance), the optimal angle for a given speed is **45 degrees**.  
    - **Low Angle (e.g., 30 degrees)**: Shorter range, flatter trajectory.  
    - **High Angle (e.g., 60 degrees)**: Higher peak, shorter range.  
    - *Example*: A cannonball fired at 45 degrees travels farther than one fired at 30 or 60 degrees.  
@@ -119,11 +120,37 @@ Projectile motion is the motion of an object influenced only by gravity (and air
    - **Higher Velocity**: Increases the maximum height, range, and time of flight.  
    - *Example*: A baseball thrown at 30 m/s travels farther and higher than one thrown at 10 m/s.  
 
----
+## 4.
 
-### **Combined Effects**
-- **Maximum Range**: Achieved with a **45-degree angle**, **high projection velocity**, and **higher projection height**.  
-- **Maximum Height**: Achieved with a **90-degree angle** (straight up) and **high projection velocity**.  
-- **Practical Applications**: In sports like basketball, the optimal angle and velocity are adjusted based on the player’s distance from the hoop and their height.  
+### 1. **$ v_f = v_i + a \cdot t $**
 
-This explanation and visual aids should help clarify how projection angle, height, and velocity influence the trajectory of a projectile!
+**Description**:  
+This formula calculates the **final velocity ($ v_f $)** of an object by adding its **initial velocity ($ v_i $)** to the product of its **acceleration ($ a $)** and the **time elapsed ($ t $)**. It is derived from the definition of acceleration, which is the rate of change of velocity over time.
+
+**When to Use**:  
+- You would use this formula when you know the initial velocity, acceleration, and time, and you want to find the final velocity of an object.
+- **Example**: A car accelerates from rest ($ v_i = 0 $) at $ 2 \, \text{m/s}^2 $ for 5 seconds. What is its final velocity?
+
+### 2. **$ v_f^2 = v_i^2 + 2 \cdot a \cdot d $**
+
+**Description**:  
+This formula relates the **final velocity ($ v_f $)** of an object to its **initial velocity ($ v_i $)**, **acceleration ($ a $)**, and the **distance traveled ($ d $)**. It is derived from the kinematic equations and eliminates the need to know the time elapsed.
+
+**When to Use**:  
+- You would use this formula when you know the initial velocity, acceleration, and distance, and you want to find the final velocity of an object.
+- **Example**: A ball is thrown upward with an initial velocity of $ 20 \, \text{m/s} $. How fast is it moving after traveling $ 15 \, \text{m} $ upward?
+
+### 3. **$ d = v_i \cdot t + \frac{1}{2} a \cdot t^2 $**
+
+**Description**:  
+This formula calculates the **distance traveled ($ d $)** by an object based on its **initial velocity ($ v_i $)**, the **time elapsed ($ t $)**, and its **acceleration ($ a $)**. It accounts for both the constant velocity component ($ v_i \cdot t $) and the acceleration component ($ \frac{1}{2} a \cdot t^2 $).
+
+**When to Use**:  
+- You would use this formula when you know the initial velocity, acceleration, and time, and you want to find the distance traveled by an object.
+- **Example**: A car starts from rest ($ v_i = 0 $) and accelerates at $ 3 \, \text{m/s}^2 $ for 4 seconds. How far does it travel?
+
+### Summary:  
+- **$ v_f = v_i + a \cdot t $**: Use when solving for final velocity given initial velocity, acceleration, and time.
+- **$ v_f^2 = v_i^2 + 2 \cdot a \cdot d $**: Use when solving for final velocity given initial velocity, acceleration, and distance.
+- **$ d = v_i \cdot t + \frac{1}{2} a \cdot t^2 $**: Use when solving for distance traveled given initial velocity, acceleration, and time.
+
