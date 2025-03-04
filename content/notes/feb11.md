@@ -2,6 +2,7 @@
 date: '2025-02-11T09:34:30-07:00'
 draft: false
 title: 'Feb11'
+weight: 9
 ---
 
 ## Preparing for Exam

@@ -2,6 +2,7 @@
 date: '2025-02-27T09:45:06-07:00'
 draft: false
 title: 'Feb27'
+weight: 10
 ---
 
 to describe kinematics:
