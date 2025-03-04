@@ -90,21 +90,13 @@ Projectile motion is the motion of an object influenced only by gravity (and air
 
 ### c.
 
-1. **Projectile Motion**:  
-   - The motion of an object launched into the air, influenced by gravity.  
-   - *Image*: A ball being thrown, with its path forming a parabola.  
+1. **Projectile Motion**: The motion of an object launched into the air, influenced by gravity.
 
-2. **Projection Angle**:  
-   - The angle at which the object is launched relative to the horizontal.  
-   - *Image*: A person throwing a ball at an angle (e.g., 45 degrees) to the ground.  
+2. **Projection Angle**: The angle at which the object is launched relative to the horizontal.
 
-3. **Projection Height**:  
-   - The vertical distance between the launch point and the landing surface.  
-   - *Image*: A ball thrown from a height (e.g., a cliff) with the ground below.  
+3. **Projection Height**: The vertical distance between the launch point and the landing surface.
 
-4. **Projection Velocity**:  
-   - The initial speed and direction at which the object is launched.  
-   - *Image*: A person throwing a ball with a specific speed and direction.  
+4. **Projection Velocity**: The initial speed and direction at which the object is launched.
 
 ---
 
