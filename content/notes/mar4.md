@@ -22,4 +22,9 @@ v_x = s\cos\theta, \\\
 v_y = s\sin\theta, \\\
 \end{align*}$$
 so distance is
-$$\frac{2\cdot s\cos\theta\cdot s\sin\theta}g = $$
+$$\frac{2\cdot s\cos\theta\cdot s\sin\theta}g.$$
+
+Since the double angle identity tells us that $\sin\theta\cos\theta = \sin(2\theta)/2$, this is equivalent to
+$$\frac{s^2\cdot\sin(2\theta)}{g}.$$
+
+Since $\sin(2\theta)$ is maximized at $2\theta = \pi/2$ or $\theta = \pi/4$, we see that this distance is maximized for a given speed at the angle $\boxed{\theta = \pi/4.}$
