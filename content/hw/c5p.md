@@ -58,4 +58,6 @@ I'll spare myself the actually calculation since I don't think it's what you're 
 
 ### C.
 
+Assuming that these takeoff distances are in opposite directions despite having the same sign (as advised by Issac's help), the feet will be 40.3 cm posterior to the COM at takeoff and 14.18 cm anterior to the COM on landing. Therefore, if we also maintain our assumption from part B that landing height is the same as the takeoff height, we have the jump distance as
+$$0.403\text{ m} + 0.7909\text{ m} + 0.1418\text{ m} = \boxed{1.3357\text{ m}}.$$
 
