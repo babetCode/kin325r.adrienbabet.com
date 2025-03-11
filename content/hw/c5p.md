@@ -32,7 +32,7 @@ This is higher than the $2.27\text{ m}$ required to clear a $2.24\text{ m}$ bar 
 
 Taking the average AP velocity between times $3.015$ and $3.025$, we get
 $$\frac{0.86112 - 0.840685}{3.025 - 3.015} = 2.0435.$$
-Similarly, in the vertical directiion we have
+Similarly, in the vertical direction we have
 $$\frac{0.917025 - 0.898041}{3.025 - 3.015} = 1.8984.$$
 Therefore, the takeoff angle is
 $$\arctan\left(\frac{1.8984}{2.0435}\right) = \boxed{42.89^\circ \text{ above horizontal}},$$
@@ -40,6 +40,16 @@ and the resultant velocity is
 $$\sqrt{1.8984^2 + 2.0435^2} \approx \boxed{2.7892}.$$
 
 ### B.
+
+#### What I think you're asking for:
+
+Despite the the week 7 day 2 lecture on differentiating "distance covered" from "displacement" (slides 22 & 23), I assume you're looking for the COM *displacement* with your question:
+> Determine the distance the center of mass will travel during the flight phase, assuming the landing height is the same as the takeoff height.
+
+The since the vertical displacement is given to be zero, we can find this by multiplying the AP velocity by the flight time. Also, the flight time will equal twice the vertical velocity divided by gravity. Therefore, (assuming our data was given in meters and seconds) we have
+$$2.0435\text{ m/s} \cdot \frac{2\cdot 1.8984\text{ m/s}}{9.81\text{ m/s}^2} \approx \boxed{0.7909\text{ m}}.$$
+
+#### The actual distance traveled:
 
 We know that a projectile with velocity $v$ will take $v/g$ seconds to reach its maximum height, so if it takes this same amount of time to fall back to its original height, then flight time will equal 
 
