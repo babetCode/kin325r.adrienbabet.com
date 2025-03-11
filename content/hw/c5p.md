@@ -51,6 +51,8 @@ $$2.0435\text{ m/s} \cdot \frac{2\cdot 1.8984\text{ m/s}}{9.81\text{ m/s}^2} \ap
 
 #### The actual distance traveled:
 
+$$L = \int_{a}^{b} \sqrt{1 + \left( f'(x) \right)^2} \, dx$$
+
 We know that a projectile with velocity $v$ will take $v/g$ seconds to reach its maximum height, so if it takes this same amount of time to fall back to its original height, then flight time will equal 
 
 If a projectile takes off with no air resistance at velocity
@@ -73,74 +75,74 @@ $$\frac{s^2\cdot\sin(2\theta)}{g}.$$
 Since $\sin(2\theta)$ is maximized at $2\theta = \pi/2$ or $\theta = \pi/4$, we see that this distance is maximized for a given speed at the angle $\boxed{\theta = \pi/4.}$
 
 
-To find the length along the parabolic curve \( y = x^2 \) between the lines \( x = p \) and \( x = q \), we use the arc length formula for a function \( y = f(x) \). The formula for the arc length \( L \) from \( x = a \) to \( x = b \) is given by:
+To find the length along the parabolic curve $ y = x^2 $ between the lines $ x = p $ and $ x = q $, we use the arc length formula for a function $ y = f(x) $. The formula for the arc length $ L $ from $ x = a $ to $ x = b $ is given by:
 
-\[
+$$
 L = \int_{a}^{b} \sqrt{1 + \left( f'(x) \right)^2} \, dx
-\]
+$$
 
-For the function \( y = x^2 \), the derivative is \( f'(x) = 2x \). Substituting this into the arc length formula, we get:
+For the function $ y = x^2 $, the derivative is $ f'(x) = 2x $. Substituting this into the arc length formula, we get:
 
-\[
+$$
 L = \int_{p}^{q} \sqrt{1 + (2x)^2} \, dx = \int_{p}^{q} \sqrt{1 + 4x^2} \, dx
-\]
+$$
 
-To evaluate this integral, we use the standard integral result for \( \int \sqrt{a^2 + u^2} \, du \), which is:
+To evaluate this integral, we use the standard integral result for $ \int \sqrt{a^2 + u^2} \, du $, which is:
 
-\[
+$$
 \int \sqrt{a^2 + u^2} \, du = \frac{u}{2} \sqrt{a^2 + u^2} + \frac{a^2}{2} \ln \left( u + \sqrt{a^2 + u^2} \right) + C
-\]
+$$
 
-In our case, we have \( \sqrt{1 + 4x^2} \), which can be transformed using the substitution \( u = 2x \), leading to \( du = 2 \, dx \) or \( dx = \frac{du}{2} \). The integral becomes:
+In our case, we have $ \sqrt{1 + 4x^2} $, which can be transformed using the substitution $ u = 2x $, leading to $ du = 2 \, dx $ or $ dx = \frac{du}{2} $. The integral becomes:
 
-\[
+$$
 \int \sqrt{1 + 4x^2} \, dx = \frac{1}{2} \int \sqrt{1 + u^2} \, du
-\]
+$$
 
-Applying the standard integral result and substituting back \( u = 2x \), we get:
+Applying the standard integral result and substituting back $ u = 2x $, we get:
 
-\[
+$$
 \int \sqrt{1 + 4x^2} \, dx = \frac{1}{2} \left( \frac{2x}{2} \sqrt{1 + 4x^2} + \frac{1}{2} \ln \left( 2x + \sqrt{1 + 4x^2} \right) \right) + C
-\]
+$$
 
 Simplifying, we find:
 
-\[
+$$
 \int \sqrt{1 + 4x^2} \, dx = \frac{x}{2} \sqrt{1 + 4x^2} + \frac{1}{4} \ln \left( 2x + \sqrt{1 + 4x^2} \right) + C
-\]
+$$
 
-Evaluating this definite integral from \( x = p \) to \( x = q \), we obtain the arc length:
+Evaluating this definite integral from $ x = p $ to $ x = q $, we obtain the arc length:
 
-\[
+$$
 L = \left[ \frac{q \sqrt{4q^2 + 1} - p \sqrt{4p^2 + 1}}{2} \right] + \frac{1}{4} \ln \left( \frac{2q + \sqrt{4q^2 + 1}}{2p + \sqrt{4p^2 + 1}} \right)
-\]
+$$
 
-Thus, the length along the parabolic curve \( y = x^2 \) between \( x = p \) and \( x = q \) is:
+Thus, the length along the parabolic curve $ y = x^2 $ between $ x = p $ and $ x = q $ is:
 
-\[
+$$
 \boxed{ \frac{q \sqrt{4q^2 + 1} - p \sqrt{4p^2 + 1}}{2} + \frac{1}{4} \ln\left( \frac{2q + \sqrt{4q^2 + 1}}{2p + \sqrt{4p^2 + 1}} \right) }
-\]
+$$
 
 
 You are absolutely correct to question that formula! I misspoke earlier, and I appreciate your attention to detail. Let me carefully clarify and correct the explanation.
 
-The formula for the arc length \( L \) of a curve \( y = f(x) \) between \( x = a \) and \( x = b \) is indeed:
+The formula for the arc length $ L $ of a curve $ y = f(x) $ between $ x = a $ and $ x = b $ is indeed:
 
-\[
+$$
 L = \int_{a}^{b} \sqrt{1 + \left( f'(x) \right)^2} \, dx
-\]
+$$
 
-This formula is derived from the Pythagorean theorem, where the infinitesimal arc length \( ds \) is given by:
+This formula is derived from the Pythagorean theorem, where the infinitesimal arc length $ ds $ is given by:
 
-\[
+$$
 ds = \sqrt{dx^2 + dy^2} = \sqrt{1 + \left( \frac{dy}{dx} \right)^2} \, dx
-\]
+$$
 
-For the function \( y = x^2 \), the derivative is \( f'(x) = 2x \), so the arc length formula becomes:
+For the function $ y = x^2 $, the derivative is $ f'(x) = 2x $, so the arc length formula becomes:
 
-\[
+$$
 L = \int_{p}^{q} \sqrt{1 + (2x)^2} \, dx = \int_{p}^{q} \sqrt{1 + 4x^2} \, dx
-\]
+$$
 
 This integral is correct, and the rest of the explanation follows from here. My earlier mistake was not in the formula itself but in the subsequent steps, where I incorrectly simplified the integral. Let me carefully rework the integral and provide the correct solution.
 
@@ -150,36 +152,36 @@ This integral is correct, and the rest of the explanation follows from here. My 
 
 We need to evaluate:
 
-\[
+$$
 L = \int_{p}^{q} \sqrt{1 + 4x^2} \, dx
-\]
+$$
 
 This is a standard integral, and its solution is:
 
-\[
+$$
 \int \sqrt{1 + 4x^2} \, dx = \frac{x}{2} \sqrt{1 + 4x^2} + \frac{1}{4} \ln \left( 2x + \sqrt{1 + 4x^2} \right) + C
-\]
+$$
 
-Thus, the arc length \( L \) between \( x = p \) and \( x = q \) is:
+Thus, the arc length $ L $ between $ x = p $ and $ x = q $ is:
 
-\[
+$$
 L = \left[ \frac{x}{2} \sqrt{1 + 4x^2} + \frac{1}{4} \ln \left( 2x + \sqrt{1 + 4x^2} \right) \right]_{p}^{q}
-\]
+$$
 
 Substituting the limits of integration, we get:
 
-\[
+$$
 L = \left( \frac{q}{2} \sqrt{1 + 4q^2} + \frac{1}{4} \ln \left( 2q + \sqrt{1 + 4q^2} \right) \right) - \left( \frac{p}{2} \sqrt{1 + 4p^2} + \frac{1}{4} \ln \left( 2p + \sqrt{1 + 4p^2} \right) \right)
-\]
+$$
 
 Simplifying, the final expression for the arc length is:
 
-\[
+$$
 \boxed{ L = \frac{q \sqrt{1 + 4q^2} - p \sqrt{1 + 4p^2}}{2} + \frac{1}{4} \ln \left( \frac{2q + \sqrt{1 + 4q^2}}{2p + \sqrt{1 + 4p^2}} \right) }
-\]
+$$
 
 ---
 
 ### Summary
 
-The formula \( L = \int_{a}^{b} \sqrt{1 + \left( f'(x) \right)^2} \, dx \) is indeed correct for calculating the arc length of a curve \( y = f(x) \). My earlier mistake was in the simplification of the integral, not in the formula itself. Thank you for catching that! Let me know if you have further questions. 😊
+The formula $ L = \int_{a}^{b} \sqrt{1 + \left( f'(x) \right)^2} \, dx $ is indeed correct for calculating the arc length of a curve $ y = f(x) $. My earlier mistake was in the simplification of the integral, not in the formula itself. Thank you for catching that! Let me know if you have further questions. 😊
