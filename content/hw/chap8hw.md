@@ -2,7 +2,7 @@
 date: '2025-04-15T12:04:24-06:00'
 draft: false
 title: 'Chapter 8 HW'
-weight: 12
+weight: 13
 math: true
 ---
 
