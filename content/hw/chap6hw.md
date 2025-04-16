@@ -1,7 +1,7 @@
 ---
 date: '2025-03-11T16:00:39-06:00'
 draft: false
-title: 'Chap6hw'
+title: 'Chapter 6 HW'
 weight: 11
 math: true
 ---

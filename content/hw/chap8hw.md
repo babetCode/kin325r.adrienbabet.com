@@ -1,7 +1,7 @@
 ---
 date: '2025-04-15T12:04:24-06:00'
 draft: false
-title: 'Chap8hw'
+title: 'Chapter 8 HW'
 weight: 12
 math: true
 ---
@@ -60,3 +60,50 @@ For complete static equilibrium, both force equilibrium and torque equilibrium m
 | **Newton’s 3rd Law (Action-Reaction)** | **Rotational Action-Reaction** | For every torque applied by Object A on Object B, B applies an equal and opposite torque on A. |
 
 ## 2. The Moment of Inertia
+
+### A.
+The moment of inertia is a measure of an object's resistance to changes in its rotational motion. It depends on both the mass of the object and how that mass is distributed relative to the axis of rotation. The farther the mass is from the axis, the greater the moment of inertia, making it harder to start or stop rotation.
+
+### B.
+1. **Point Mass:**  
+   $$
+   I = mr^2
+   $$
+   (where $ m $ = mass, $ r $ = distance from axis)  
+
+2. **Solid Cylinder (about central axis):**  
+   $$
+   I = \frac{1}{2}MR^2
+   $$
+   (where $ M $ = total mass, $ R $ = radius)  
+
+3. **Thin Rod (rotating about one end):**  
+   $$
+   I = \frac{1}{3}ML^2
+   $$
+   (where $ M $ = mass, $ L $ = length of rod)  
+
+### C.
+
+- **a.** Rigid Sporting Implement (e.g., Tennis Racket, Baseball Bat, Golf Club)  
+Increase $ I $: Distribute mass farther from the axis (e.g., use a longer or heavier racket head).  
+Decrease $ I $: Make the object shorter or move mass closer to the handle (e.g., choke up on a bat).  
+
+- **b.** Non-Rigid Object (e.g., Human Body)  
+Increase $ I $: Extend limbs away from the body (e.g., spreading arms and legs).  
+Decrease $ I $: Tuck limbs close to the axis (e.g., pulling arms in during a spin).
+
+### D.
+Angular momentum ($ L $) is conserved when no external torque acts on a system:  
+$$
+L = I \omega = \text{constant}.
+$$
+When the skater pulls their arms in, $ I $ **decreases** (mass is closer to the axis). To conserve $ L $, angular velocity ($ \omega $) must **increase**, causing the skater to spin faster. Therefore, reducing $ I $ by pulling arms in leads to a faster spin to maintain the same $ L $.
+
+## 3. Application to Gymnastics
+
+From the given frontal view, falling off the beam to her right would be a counterclockwise rotation around the beam. Therefore, she should apply a counter-clockwise torque to her arm (out of the page in this frontal plane) so that by action-reaction her arm applies a clock-wise torque back to her body. Given her position, this would likely be achieved via horizontal adduction of the shoulder.
+
+
+### References
+Week 11 Lecture: Angular Kinematics. Montana State University, Department of Food Systems, Nutrition, & Kinesiology, Fall 2024.
