@@ -17,10 +17,10 @@ $$ v_f^2 = 2 \cdot 9.81 \text{ m/s}^2 \cdot 0.65 \text{ m}. $$
 Evaluating the right hand side and taking the square root gives
 $$ v_f = \sqrt{12.753\ \text m^2 /\text s^2} \approx 3.57\text{ m/s}. $$
 
-Therefore, we have
+Therefore, we have an average force of
 $$ \frac{55\text{ kg} \cdot 3.57\text{ m/s}}{0.15\text{ s}} = 1309\text{ N}. $$
 
-Since this is less than 1500 N, she is unlikely to break her hip.
+Since this is less than 1500 N, she is unlikely to break her hip if we assume uniform acceleration. However, if peak force is much greater than average force (such  as the 2x assumed in problem 2 part C), then she is much more likely to sustain a break.
 
 > ### B.
 > Based on your answer to the above, what could you do to reduce the risk of her fracturing her pelvis in a fall?
