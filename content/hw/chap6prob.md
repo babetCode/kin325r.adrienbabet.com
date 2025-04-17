@@ -13,7 +13,7 @@ math: true
 
 
 Assuming an initial fall velocity of zero, the kinematic equation $ v_f^2 = v_i^2 + 2 \cdot a \cdot d $ becomes
-$$ v_f^2 = 2 \cdot 9.81 \text{ m/s}^2 \cdot 0.65 \text m. $$
+$$ v_f^2 = 2 \cdot 9.81 \text{ m/s}^2 \cdot 0.65 \text{ m}. $$
 Evaluating the right hand side and taking the square root gives
 $$ v_f = \sqrt{12.753\ \text m^2 /\text s^2} \approx 3.57\text{ m/s}. $$
 
@@ -40,3 +40,33 @@ Either decrease her mass, or increse that time over which she decelerates. This 
 
 Subject 1, because the ground contact time was very small.
 
+> ### B.
+> Determine the average force applied to the head of each cyclist during these impacts.
+
+**For subject 1**, the velocity can be calculated by evaluating
+$$ v_f^2 = 2 \cdot 9.81 \text{ m/s}^2 \cdot 1.2 \text{ m}. $$
+Evaluating the right hand side and taking the square root gives
+$$ v_f = \sqrt{23.544\ \text m^2 /\text s^2} \approx 4.85\text{ m/s}. $$
+Therefore, we have
+$$ \frac{5\text{ kg} \cdot 4.85\text{ m/s}}{0.01\text{ s}} = \boxed{2425\text{ N}}. $$
+
+**For subject 2**, following the same steps gives
+$$ v_f^2 = 2 \cdot 9.81 \text{ m/s}^2 \cdot 1.5 \text{ m}. $$
+Evaluating the right hand side and taking the square root gives
+$$ v_f = \sqrt{29.43\ \text m^2 /\text s^2} \approx 5.42\text{ m/s}. $$
+Therefore, we have
+$$ \frac{6\text{ kg} \cdot 5.42\text{ m/s}}{0.045\text{ s}} \approx \boxed{723\text{ N}}. $$
+
+> ### C.
+> Assume the peak force applied to the head is double the average force you calculated in part B. Using this peak force, determine the resulting accelerations of the head. Express you answer in g’s (multiples of acceleration due to gravity, i.e. 3g, 10g, 21g, etc...).
+
+**For subject 1**, we have
+$$ \frac{2 \cdot 2425\text{ N}}{5 \text{ kg}} = 970 \text{ m/s}^2 \approx \boxed{99 \text{ g}}. $$
+
+**For subject 2**, we have
+$$ \frac{2 \cdot 723\text{ N}}{6 \text{ kg}} = 241 \text{ m/s}^2 \approx \boxed{25 \text{ g}}. $$
+
+> ### D.
+> The threshold for sustaining a concussion is somewhere around 85g. Based on the values you calculated in part C, are either of these cyclists likely to sustain a concussion from this crash?
+
+While subject 2 is below this 85 g threshold, subjuct 1 is above it. Therefore, subject 1 is likely to sustain a concussion.
