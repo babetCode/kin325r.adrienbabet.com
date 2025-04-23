@@ -11,11 +11,11 @@ math: true
 - **Deformable Body Mechanics**  
 The study of how solid bodies deform under applied forces, combining principles of mechanics and material science. It includes analyzing stress, strain, and material behavior under load.  
 
-- **Stress (σ)**  
+- **Stress ($σ$)**  
 A measure of internal resistance to deformation, defined as the applied force per unit area within a material (units: Pascals, Pa).  
 **Formula:** $ \sigma = \frac{F}{A} $ (where $ F $ = force, $ A $ = cross-sectional area).  
 
-- **Strain (ε)**  
+- **Strain ($ε$)**  
 A dimensionless measure of deformation representing the relative change in shape or size of a material due to applied stress.  
 **Formula (Axial Strain):** $ \epsilon = \frac{\Delta L}{L_0} $ (where $ \Delta L $ = change in length, $ L_0 $ = original length).  
 
@@ -23,7 +23,7 @@ A dimensionless measure of deformation representing the relative change in shape
 A material or structure's resistance to deformation under load. It depends on both material properties (e.g., Young’s Modulus) and geometry.  
 **Formula (Axial Stiffness):** $ k = \frac{EA}{L} $ (where $ E $ = Young’s Modulus, $ A $ = cross-sectional area, $ L $ = length).  
 
-- **Young’s Modulus (E)**  
+- **Young’s Modulus ($E$)**  
 A material property describing stiffness in the elastic regime, defined as the ratio of stress to strain (units: Pascals, Pa).  
 **Formula:** $ E = \frac{\sigma}{\epsilon} $.  
 
@@ -38,85 +38,92 @@ The energy loss (as heat) during cyclic loading and unloading of a material, rep
 
 ## 2. Formula Central
 
-### **1. Stress (σ) – The amount of stress an object experiences when a force is applied**  
-**Formula:**  
+### **The amount of stress an object experiences when a force is applied:**
+
 $$
 \sigma = \frac{F}{A}
 $$  
-**Explanation:**  
-- **σ (Stress):** Internal resistance per unit area (Pa or N/m²).  
-- **F (Force):** Applied external force (N).  
-- **A (Area):** Cross-sectional area over which the force is distributed (m²).  
-**Meaning:** Stress measures how concentrated a force is within a material. Higher stress means more force per unit area, increasing the risk of deformation or failure.
+**Variables:**
+- $\sigma$ (Stress): Internal resistance per unit area (Pa or N/m²).  
+- $F$ (Force): Applied external force (N).  
+- $A$ (Area): Cross-sectional area over which the force is distributed (m²).  
 
-### **2. Strain (ε) – The amount of strain within a material as it is elongated**  
-**Formula:**  
+Stress measures how concentrated a force is within a material. While pressure measures external force per area, stress measures internal force per area --- they both use the same units. Higher stress means increased chance of deformation or failure.
+
+### **The amount of strain within a material as it is elongated:**
+
 $$
 \epsilon = \frac{\Delta L}{L_0}
 $$  
-**Explanation:**  
-- **ε (Strain):** Dimensionless measure of deformation.  
-- **ΔL:** Change in length (m).  
-- **L₀:** Original length (m).  
-**Meaning:** Strain quantifies how much a material stretches relative to its original size. A higher strain means more elongation (or compression).
+**Variables:**  
+- $\epsilon$ (Strain): Dimensionless measure of deformation.  
+- $\Delta L$: Change in length (m).  
+- $L_0$: Original length (m).  
 
-### **3. Stiffness (k) – The stiffness of a material or structure**  
-**Formula (Axial/Linear Stiffness):**  
+Strain quantifies how much a material changes shape. A higher strain means more deformation.
+
+### **The stiffness of a material:**
+
 $$
 k = \frac{EA}{L}
 $$  
-**Explanation:**  
-- **k (Stiffness):** Resistance to deformation (N/m).  
-- **E (Young’s Modulus):** Material stiffness (Pa).  
-- **A (Cross-sectional Area):** Influences load distribution (m²).  
-- **L (Length):** Longer objects are less stiff.  
-**Meaning:** Stiffness depends on both material (E) and geometry (A, L). A higher **k** means the material resists deformation more.
+**Variables:**  
+- $k$ (Stiffness): Resistance to deformation (N/m).  
+- $E$ (Young’s Modulus): Material stiffness (Pa).  
+- $A$ (Cross-sectional Area): Influences load distribution (m²).  
+- $L$ (Length): Longer objects are less stiff.  
 
-### **4. Young’s Modulus (E) – The stiffness of a material**  
-**Formula:**  
+Stiffness depends on both material ($E$) and geometry ($A$, $L$). A higher $k$ means the material resists deformation more.
+
+### **The Young’s Modulus of a material:**
+
 $$
 E = \frac{\sigma}{\epsilon}
 $$  
-**Explanation:**  
-- **E (Young’s Modulus):** Intrinsic material stiffness (Pa).  
-- **σ (Stress):** Applied force per unit area.  
-- **ε (Strain):** Resulting deformation.  
-**Meaning:** Measures how easily a material stretches under stress. High **E** (e.g., steel) = stiff; low **E** (e.g., rubber) = flexible.
+**Variables:**  
+- $E$ (Young’s Modulus): Intrinsic material stiffness (Pa).  
+- $σ$ (Stress): Applied force per unit area.  
+- $ε$ (Strain): Resulting deformation.  
 
-### **5. Work-Energy Relationship**  
-**Formula:**  
+Measures how easily a material stretches under stress. Higher $E$ means more intrinsically stiff.
+
+### **The Work-Energy Relationship:**
+
 $$
 W = \Delta KE + \Delta PE + \Delta U
 $$  
-**Explanation:**  
-- **W (Work Done):** External energy input (J).  
-- **ΔKE (Change in Kinetic Energy):** $ \frac{1}{2}mv^2 $.  
-- **ΔPE (Change in Potential Energy):** $ mgh $.  
-- **ΔU (Change in Internal Energy):** Heat/deformation losses.  
-**Meaning:** Work done on a system changes its kinetic, potential, and internal energy (e.g., stretching a spring stores elastic energy).
+**Variables:**  
+- $W$ (Work Done): External energy input (J).  
+- $ΔKE$ (Change in Kinetic Energy): $ \frac{1}{2}mv^2 $.  
+- $ΔPE$ (Change in Potential Energy): $ mgh $.  
+- $ΔU$ (Change in Internal Energy): Heat/deformation losses.  
 
-### **6. Conservation of Energy (Ball Dropping from Height h)**  
-**Formula:**  
+Work done on a system changes its kinetic, potential, and internal energy (e.g., stretching a spring stores elastic energy).
+
+### **Conservation of Energy applied to a ball dropping from height:**
+
 $$
 PE_{\text{initial}} = KE_{\text{final}} \quad \Rightarrow \quad mgh = \frac{1}{2}mv^2
 $$  
-**Explanation:**  
-- **PE = mgh:** Potential energy at height **h**.  
-- **KE = ½mv²:** Kinetic energy at impact.  
-**Meaning:** Energy converts from potential to kinetic as the ball falls (ignoring air resistance).
+**Variables:**  
+- $PE = mgh$: Potential energy at height h.  
+- $KE = 1/2(mv²)$: Kinetic energy at impact.  
 
-### **7. Power Output (P)**  
-**Formula:**  
+Energy converts from potential to kinetic as the ball falls (ignoring air resistance).
+
+### **Power Output:**
+
 $$
 P = \frac{W}{t} \quad \text{or} \quad P = F \cdot v
 $$  
-**Explanation:**  
-- **P (Power):** Rate of energy transfer (Watts, W).  
-- **W (Work):** Energy expended (J).  
-- **t (Time):** Duration (s).  
-- **F (Force):** Applied force (N).  
-- **v (Velocity):** Speed of motion (m/s).  
-**Meaning:** Power measures how quickly work is done (e.g., lifting weights faster requires more power).
+**Variables:**  
+- $P$ (Power): Rate of energy transfer (Watts, W).  
+- $W$ (Work): Energy expended (J).  
+- $t$ (Time): Duration (s).  
+- $F$ (Force): Applied force (N).  
+- $v$ (Velocity): Speed of motion (m/s).
+
+Power measures how quickly work is done (e.g., lifting weights faster requires more power).
 
 ### **Summary Table**  
 | Concept | Formula | Key Variables | Meaning |  
@@ -129,4 +136,46 @@ $$
 | **Conservation of Energy** | $ mgh = \frac{1}{2}mv^2 $ | Mass (m), Height (h), Velocity (v) | PE → KE conversion |  
 | **Power** | $ P = \frac{W}{t} $ or $ P = Fv $ | Work (W), Time (t), Force (F), Velocity (v) | Rate of energy use |  
 
-Let me know if you'd like deeper explanations or examples!
+## Plot This
+<div class="rounded-lg float-left max-w-md mr-4">
+    <img src="/images/hw10p3a.jpg" alt=" ">
+</div>
+<div class="rounded-lg float-left max-w-md mr-4">
+    <img src="/images/hw10p3b.jpg" alt=" ">
+</div>
+<div class="rounded-lg float-left max-w-md mr-4">
+    <img src="/images/hw10p3c.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
+
+## Plot This Part Two
+
+<div class="rounded-lg float-left max-w-md mr-4">
+    <img src="/images/hw10p4a.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
+A material's mechanical properties (e.g., strength, stiffness) depend on how quickly it is deformed; polymers and metals at high temperatures often exhibit increased strength at higher strain rates. For example, silly Putty stretches slowly when pulled gently but snaps abruptly when yanked quickly, demonstrating strain rate sensitivity—its strength increases with faster deformation.
+
+<div class="rounded-lg float-left max-w-md mr-4">
+    <img src="/images/hw10p4b.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
+
+Rubber or viscoelastic materials show significant energy loss (as heat) when unloaded, resulting in a large loop between loading and unloading curves on a stress-strain plot. For example, a rubber band returns to its original shape after stretching but feels warm because energy was lost as heat, showing high hysteresis in its stress-strain loop.
+
+<div class="rounded-lg float-left max-w-md mr-4">
+    <img src="/images/hw10p4c.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
+
+When a material is held at a constant strain, stress gradually decreases over time due to molecular rearrangements, seen as a decaying exponential curve. For example, when a constant strain is applied to a viscoelastic material (e.g., chewing gum), the force-time curve shows an initial peak followed by a gradual decline as internal stresses relax over time.
+
+<div class="rounded-lg float-left max-w-md mt-4">
+    <img src="/images/hw10p4d.jpg" alt=" ">
+</div>
+<div class="clear-both"></div>
+
+Under constant load, a material slowly deforms over time. For example, a hanging rope under constant load slowly elongates over months; its length-time curve would show an initial elastic jump followed by a steady, time-dependent increase due to creep.
+
+### References
+Week 13 Lecture, Montana State University, Department of Food Systems, Nutrition, & Kinesiology, Fall 2024.
